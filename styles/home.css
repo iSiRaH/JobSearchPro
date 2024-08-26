@@ -1,0 +1,175 @@
+body{
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+p{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.heading{
+    margin-top:130px;
+    margin-left:50px;
+    font-family:'poppins';
+}
+
+.heading1{
+    font-size:45px;
+    color:#02ad1f;
+    font-weight:550;
+    text-decoration:underline;
+}
+
+.heading2{
+    font-size:35px;
+    color:#02ad1f;
+    font-weight:450;
+    margin-top:35px;
+    margin-bottom:70px;
+}
+
+.top-content{
+    display:flex;
+}
+
+.home-image1,
+.home-image2{
+    height:400px;
+}
+
+.middle-content,
+.left-content,
+.right-content{
+    flex:1;
+}
+
+.middle-content{
+    display:grid;
+    min-width:350px;
+    margin-left:35px;
+    margin-right:35px;
+    font-family:'poppins';
+    justify-content:center;
+    align-items:center;
+}
+
+.signin-heading1{
+    font-size:20px;
+    font-weight:450;
+    margin-bottom:15px;
+    width:370px;
+    text-align:center;
+}
+
+.signin-heading2{
+    font-size:18px;
+    font-weight:420;
+    width:370px;
+    text-align:center;
+}
+
+.privacy-text{
+    font-size:10px;
+    margin-top:13px;
+    width:370px;
+    text-align:justify;
+}
+
+.google-signin-button,
+.facebook-signin-button{
+    width:370px;
+    height:40px;
+    font-family:'poppins';
+    cursor:pointer;
+    padding-left:10px;
+    padding-top:0;
+    padding-bottom:0;
+    background-color:white;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    margin-bottom:8px;
+    border-radius:2px;
+}
+
+.button-grid{
+    display:grid;
+    grid-template-columns:39px 1fr;
+    column-gap:50px;
+}
+
+.google-icon,
+.facebook-icon{
+    height:30px;
+}
+
+.google-signin-text,
+.facebook-signin-text{
+    font-weight:500;
+    font-size:15px;
+    text-align:left;
+}
+
+.hr1,
+.or,
+.hr2{
+    display:inline-block;
+}
+
+.hr1,
+.hr2{
+    border-top:1px;
+    border-style:solid;
+    width:167px;
+}
+
+.enter-email-text{
+    text-align:left;
+}
+
+.input-email{
+    width:367px;
+    height:35px;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:0;
+    padding-right:0;
+    margin-bottom:15px;
+    font-size:18px;
+    font-family:'arial';
+}
+
+.button-email{
+    width:370px;
+    height:40px;
+    font-family:'poppins';
+    font-weight:500;
+    font-size:15px;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:0;
+    padding-right:0;
+    background-color:white;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    cursor:pointer;
+    border-radius:2px;
+}
+
+.button-email:hover{
+    background-color:#04a11e;
+    border:none;
+    color:white;
+    transition: background-color 0.15s,
+                border 0.15s,
+                color 0.15s;
+}
+
+.button-email:active{
+    background-color:#02ad1f;
+    transition: background-color 0.15s;
+}

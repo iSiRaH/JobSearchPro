@@ -1,0 +1,95 @@
+.heading{
+    color: rgb(0, 197, 0);
+    margin-left:200px;
+    border-bottom:5px;
+    border-bottom-style:solid;
+    display:inline-block;
+    font-size:40px;
+    font-family:'varela round';
+}
+
+.joinus{
+    margin-top:100px;
+    display:inline-block;
+    margin-left:0;
+    margin-bottom:4px;
+    text-align: center;
+}
+
+.content-block{
+    display:flex;
+    flex-direction:row;
+    margin-top:100px;
+    align-items:center;
+    justify-content:center;
+    column-gap:50px;
+}
+
+.left-content{
+    flex:1;
+}
+
+.right-content{
+    flex:1;
+}
+
+.aboutus-content,
+.started-content,
+.ourteam-content,
+.joinus-content,
+.mission-content{
+    font-size:18px;
+    font-family:'poppins';
+    margin-left:75px;
+    margin-right:75px;
+    text-align:justify;
+    line-height:35px;
+}
+
+.images{
+    height:400px;
+}
+
+.second,
+.fourth{
+    margin-left:250px;
+}
+
+.login-text,
+.signup-text{
+    display:inline-block;
+    font-size:18px;
+    font-family:'poppins';
+    text-align:center;
+    width:260px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.right-grid{
+    display:grid;
+    grid-template-rows:40px 40px 60px 40px;
+    row-gap:10px;
+    margin-left:50px;
+}
+
+.loginbutton,
+.signupbutton{
+    width:260px;
+    height:34px;
+    font-family:'arial';
+    font-size:16px;
+    font-weight:600;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.loginbutton{
+    background-color:rgb(12,170,65);
+}
+
+.signupbutton{
+    background-color:black;
+    color:white;
+}

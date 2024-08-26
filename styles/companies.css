@@ -1,0 +1,156 @@
+.heading{
+    margin-top:130px;
+    text-align:center;
+    font-family:'poppins';
+    font-size:45px;
+    font-weight:500;
+}
+
+.search-section-grid{
+    display:flex;
+    flex-direction:row;
+    column-gap:150px;
+    justify-content:center;
+}
+
+.first-column,
+.second-column{
+    flex:1;
+}
+
+.man-image{
+    width:700px;
+}
+
+.first-column{
+    max-width:700px;
+}
+
+.second-column{
+    max-width:350px;
+    height:400px;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    border-radius:15px;
+    text-align:left;
+    padding-left:75px;
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color:rgba(12,170,65,0.5);
+    font-size:18px;
+    font-family:'poppins';
+}
+
+.search-box{
+    height:25px;
+    width:175px;
+    padding-left:5px;
+    border-radius:3px;
+    border:1px solid #B6B6B6;
+}
+
+.search-button{
+    border:none;
+    background-color:#009422;
+    height:25px;
+    width:60px;
+    border-radius:3px;
+    font-size:15px;
+    cursor: pointer;
+    color:white;
+}
+
+.search-button:active{
+    background-color:#e5e5e5;
+    color:black;
+    transition: background-color 0.15s,
+                color 0.15s;
+}
+
+.select-location,
+.select-industry,
+.select-jobtype{
+    height:25px;
+    margin-bottom:10px;
+    border-radius:5px;
+}
+
+.filter-button{
+    border:none;
+    height:25px;
+    width:75px;
+    background-color:#009422;
+    border-radius:3px;
+    color:white;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.filter-button:active{
+    background-color:#e5e5e5;
+    color:black;
+    transition: background-color 0.15s,
+                color 0.15s;
+}
+
+.sort-table{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    text-align: center;
+    margin-top:40px;
+    font-family:'calibri';
+    font-size:30px;
+}
+
+.letter-table-data{
+    width:100px;
+}
+
+.letter-nev{
+    text-decoration:none;
+    color:black;
+}
+
+.letter-nev:hover{
+    color:#009422;
+}
+
+.com-name-table{
+    width:100%;
+    margin-top:75px;
+    display:flex;
+    justify-content:center;
+    font-family:'Calibri'
+}
+
+th{
+    font-size:30px;
+}
+
+.com-list{
+    display:flex;
+    justify-content:center;
+}
+
+.table-data{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.table-item{
+    height:35px;
+}
+
+.com-table-data{
+    width:300px;
+}
+
+.list-logo{
+    width:25px;
+}
+
+td{
+    vertical-align:top;
+}

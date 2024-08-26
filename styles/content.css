@@ -1,0 +1,181 @@
+.search-section{
+    margin-top:100px;
+    display:grid;
+    grid-template-columns:500px 45px;
+    justify-content:center;
+    align-items:center;
+}
+
+.search-bar{
+    height:34px;
+    font-family:'roboto';
+    font-size:15px;
+    border-radius:17px;
+    border-style:solid;
+    border-color:rgb(86, 86, 86);
+    padding-left:6px;
+}
+
+.search-bar::placeholder{
+    font-family:'roboto';
+    font-size:15px;
+    color:rgba(128, 128, 128, 0.7);
+    padding-left:5px;
+}
+
+.search-button{
+    height:36px;
+    width:50px;
+    margin-left:-50px;
+    border-radius:17px;
+    border:none;
+    background-color:rgba(12,170,65,0.15);
+}
+
+.search-button:hover{
+    background-color:rgba(12,170,65,0.8);
+    cursor:pointer;
+    transition: background-color 0.15s;
+}
+
+.search-icon{
+    height:30px;
+    margin-left:0px;
+    margin-top:3px;
+}
+
+/*Search bar styles end here*/
+
+.featured-job-title{
+    font-family:'roboto';
+    font-size:28px;
+    margin-left:350px;
+}
+
+.job-category-title{
+    font-family:'roboto';
+    font-size:28px;
+    margin-left:200px;
+}
+
+
+/*Job listings styles begin here*/
+
+.content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:6px;
+    margin-top:30px;
+}
+
+.left-content{
+    display:grid;
+    grid-template-rows:80px 1fr;
+    align-items:top;
+    row-gap:15px;
+}
+
+.listing-grid{
+    display:grid;
+    row-gap:25px;
+}
+
+.job-listing{
+    display:grid;
+    grid-template-columns:110px 250px 100px;
+    border-color:rgba(128, 128, 128, 0.7);
+    border-style:solid;
+    border-width:1px;
+    border-radius:3px;
+    height:106px;
+    width:500px;
+    padding-left:45px;
+    align-items:center;
+    justify-content:center;
+    margin-left:200px;
+    margin-top:0;
+    color:black;
+    text-decoration:none;
+}
+
+.job-listing:hover{
+    border-left-style:solid;
+    border-left-color:rgba(0, 128, 0, 0.8);
+    background-color:rgb(228,254,227);
+    border-left-width:4px;
+    width:496px;
+    transition: background-color 0.15s,
+                border-left 0.15s
+                width 0.15s;
+}
+
+.company-logo{
+    width:90px;
+}
+
+.job-position{
+    margin-top:0;
+    margin-bottom:0;
+    font-size:20px;
+    font-family:'poppins';
+    font-weight:500;
+}
+
+.job-company{
+    margin-top:7px;
+    margin-bottom:0;
+    font-family:'varela round';
+    font-size:15px;
+}
+
+.job-location{
+    display:inline-block;
+    font-family:'roboto';
+    font-size:14px;
+}
+
+.location-pin{
+    height:15px;
+}
+
+/*Job listing styles end here*/
+
+
+/*Job category styles begin here*/
+
+.right-content{
+    display:grid;
+    grid-template-rows:80px 1fr;
+    row-gap:15px;
+    align-items:top;
+}
+
+.category-grid{
+    display:flex;
+    flex-direction:column;
+    margin-top:0;
+    margin-left:180px;
+    row-gap:5px;
+    justify-content:top;
+}
+
+.category{
+    font-family:'roboto';
+    font-size:23px;
+    text-decoration:none;
+    text-align:center;
+    color:rgb(84, 84, 84);
+    border-style:solid;
+    border-color:rgba(128, 128, 128, 0.7);
+    border-width:1px;
+    border-radius:3px;
+    width:320px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.category:hover{
+    border-left-color:rgba(0, 128, 0, 0.8);
+    border-left-width:4px;
+    width:316px;
+}

@@ -1,0 +1,117 @@
+.job-heading{
+    margin-top:100px;
+    margin-bottom:0;
+    font-family:'roboto';
+    font-weight:600;
+    font-size:42px;
+    text-align:center;
+}
+
+.job-name{
+    margin-top:25px;
+    margin-bottom:0;
+    font-family:'roboto';
+    font-weight:600;
+    font-size:30px;
+    text-align:center;
+}
+
+.location-pin{
+    height:15px;
+}
+
+.job-location{
+    display:inline-block;
+    font-family:'roboto';
+}
+
+.location{
+    align-content:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.content-grid{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    column-gap:50px;
+}
+
+.heading{
+    font-size:20px;
+    font-weight:550;
+    font-family:'poppins';
+    margin-top:30px;
+}
+
+.points{
+    font-family:'roboto';
+    font-size:16px;
+    line-height:23px;
+}
+
+.left-content{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.right-content{
+    width:300px;
+    vertical-align:top;
+    justify-content:center;
+}
+
+.company-logo{
+    width:200px;
+    display:block;
+    padding-left:50px;
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
+.cv-upload-text{
+    font-size:18px;
+    font-family:'varela round';
+    font-weight:500;
+    margin-left:75px;
+    margin-bottom:5px;
+}
+
+.cv-upload{
+    font-size:10px;
+    background-color:rgb(255, 255, 255);
+    border:none;
+    height:40px;
+    width:150px;
+    margin-left:75px;
+    font-family:'varela round';
+    font-weight:500;
+}
+
+.apply-job-button{
+    display:block;
+    font-size:20px;
+    background-color:rgb(11, 149, 11);
+    border:none;
+    height:40px;
+    width:150px;
+    margin-left:75px;
+    border-radius:10px;
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+    padding-bottom:0;
+    font-family:'varela round';
+    font-weight:500;
+}
+
+.apply-job-button:hover{
+    background-color:white;
+    color:rgb(11, 149, 11);
+    border-style:solid;
+    border-color:rgb(1, 139, 1);
+    border-width:2px;
+    transition: background-color 0.15s,
+                color 0.15s;
+}
