@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Companies</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="styles/header.css"/>
+        <link rel="stylesheet" href="styles/footer.css"/>
+        <link rel="stylesheet" href="styles/companies.css"/>
+    </head>
+
+    <body>
+
+        <!--Header starts here-->
+
+        <div class="header">
+            <div class="left-section">
+                <a href="home.html">
+                    <img class="logo" src="images/logos/logo.png">
+                </a>
+            </div>
+
+            <div class="site-nevigation">
+                <button onclick="window.location.href='home.html';" class="nevigation-button">Home</button>
+                <button onclick="window.location.href='jobListings.html';" class="nevigation-button">Jobs</button>
+                <button onclick="window.location.href='Companies.html';" class="nevigation-button">Companies</button>
+                <button onclick="window.location.href='aboutus.html';" class="nevigation-button">About Us</button>
+            </div>
+
+            <div class="right-section">
+                    <button onclick="window.location.href='login.html';" class="login-button">Log in</button>
+
+                    <button class="signup-button" onclick="window.location.href='signup.html';" >Sign Up</button>
+            </div>
+        </div>
+
+        <!--Header ends here-->
+
+
+        <!--Content start here-->
+
+        <p class="heading">Find a great place to work</p>
+
+        <div class="search-section-grid">
+            <div class="first-column">
+                <img class="man-image" src="images/images/man.jpg">
+            </div>
+
+            <div class="second-column">
+                <p>Have an employer in mind?</p>
+
+                <input class="search-box" type="textbox" placeholder="Search for a Company">
+
+                <button class="search-button">Search</button>
+
+                <p>Filter Companies</p>
+
+                <form>
+                    <label>
+                        Location
+                    </label>
+                    <br>
+
+                    <select class="select-location">
+                        <option>Colombo</option>
+                        <option>Kandy</option>
+                        <option>Galle</option>
+                        <option>Ampara</option>
+                        <option>Anuradhapura</option>
+                        <option>Badulla</option>
+                        <option>Batticaloa</option>
+                        <option>Gampaha</option>
+                        <option>Hambantota</option>
+                        <option>Jaffna</option>
+                        <option>Kalutara</option>
+                        <option>Kegalle</option>
+                        <option>Kilinochchi</option>
+                        <option>Kurunagala</option>
+                        <option>Mannar</option>
+                        <option>Matale</option>
+                        <option>Matara</option>
+                        <option>Monaragala</option>
+                        <option>Mullativu</option>
+                        <option>Nuwara Eliya</option>
+                        <option>Polonnaruwa</option>
+                        <option>Puttalam</option>
+                        <option>Rathnapura</option>
+                        <option>Trincomalee</option>
+                        <option>Vavniya</option>
+                    </select>
+                    <br>
+
+                    <label>
+                        Job Industry
+                    </label>
+                    <br>
+
+                    <select class="select-industry">
+                        <option>Administrative</option>
+                        <option>Business</option>
+                        <option>Consulting</option>
+                        <option>Customer Services & Support</option>
+                        <option>Education</option>
+                        <option>Engineering</option>
+                        <option>Finance & Accounting</option>
+                        <option>Healthcare</option>
+                        <option>Human Resources</option>
+                        <option>Information Technology</option>
+                        <option>Legal</option>
+                        <option>Marketing</option>
+                        <option>Media & Commiunications</option>
+                        <option>Sales</option>
+                        <option>Transportation</option>
+                        <option>Othres</option>
+                    </select>
+                    <br>
+
+                    <label class="select-title">
+                        Job Type
+                    </label>
+                    <br>
+
+                    <select class="select-jobtype">
+                        <option>Full Time</option>
+                        <option>Part Time</option>
+                        <option>Both</option>
+                    </select>
+                    <br>
+
+                    <input class="filter-button" type="button" value="Filter">
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <table class="sort-table">
+                <tr>
+                    <td class="letter-table-data"><a class="letter-nev" href="#worda">A</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordb">B</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordc">C</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordd">D</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#worde">E</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordf">F</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordg">G</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordh">H</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordi">I</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordj">J</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordk">K</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordl">L</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordm">M</a></td>
+                </tr>
+
+                <tr>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordn">N</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordo">O</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordp">P</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordq">Q</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordr">R</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#words">S</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordt">T</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordu">U</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordv">V</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordw">W</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordx">X</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordy">Y</a></td>
+                    <td class="letter-table-data"><a class="letter-nev" href="#wordz">Z</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table class="com-name-table">
+                <tr>
+                    <th class="com-table-data" id="worda">A</th>
+                    <th class="com-table-data"  id="wordb">B</th>
+                    <th class="com-table-data"  id="wordc">C</th>
+                    <th class="com-table-data"  id="wordd">D</th>
+                </tr>
+
+                <tr>
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a1.png"></td>
+                                <td class="table-item">Access World(PVT)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a2.jpeg"></td>
+                                <td class="table-item">Agro Ventures  Plantations(PVT)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a3.jpeg"></td>
+                                <td class="table-item">AHZ ASSOCIATES COCHIN</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a4.png"></td>
+                                <td class="table-item">AIA Insurance</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a5.png"></td>
+                                <td class="table-item">Ajantha motor stores(Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a6.png"></td>
+                                <td class="table-item">Alpho Lanka(Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a7.jpeg"></td>
+                                <td class="table-item">Asriel Holding(Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a8.png"></td>
+                                <td class="table-item">ATA EXPRESS (PVT)LTD</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/a9.png"></td>
+                                <td class="table-item">Avanka</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/b1.png"></td>
+                                <td class="table-item">BHM Traders</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/b2.jpg"></td>
+                                <td class="table-item">BizyCorp</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/b3.jpg"></td>
+                                <td class="table-item">Boda Boda Pvt.Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/b4.png"></td>
+                                <td class="table-item">Bopitiya Auto Enterprices</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/b5.png"></td>
+                                <td class="table-item">Berjaya Mount Royal Beach Hotel</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/c1.png"></td>
+                                <td class="table-item">Centre foe media and information Literacy</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/c2.jpg"></td>
+                                <td class="table-item">Ceylon Robotics Industries Pvt.Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/c3.jpg"></td>
+                                <td class="table-item">Choice Pvt.Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/c4.png"></td>
+                                <td class="table-item">ChillFrost Pvt.Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/c5.png"></td>
+                                <td class="table-item">China State Construction Engineering Corporation Limited</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/d1.jpg"></td>
+                                <td class="table-item">Dahamya Creations(PVT)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/d2.png"></td>
+                                <td class="table-item">Delux Roofing (PVT)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/d4.jpg"></td>
+                                <td class="table-item">Diligent</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/d5.jpg"></td>
+                                <td class="table-item">Don & Sons(Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/d6.png"></td>
+                                <td class="table-item">Dumeeqs lanka(Pvt)Ltd</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th id="worde">E</th>
+                    <th id="wordf">F</th>
+                    <th id="wordg">G</th>
+                    <th id="wordh">H</th>
+                </tr>
+
+                <tr>
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/e1.png"></td>
+                                <td class="table-item">Elsner Technologies</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/e2.png"></td>
+                                <td class="table-item">English Bud Education</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/e3.png"></td>
+                                <td class="table-item">Excello Developers</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/e4.png"></td>
+                                <td class="table-item">EZYCODE PRIVATE LIMITED</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/f1.jpg"></td>
+                                <td class="table-item">Fidenz Technologies</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/f2.png"></td>
+                                <td class="table-item">FRIDRICH MEDIA LIMITED</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/g1.jpg"></td>
+                                <td class="table-item">Gaanext (pvt) Limited</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/g2.jpg"></td>
+                                <td class="table-item">Geotel lanka (pvt) LTD</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/g3.jpeg"></td>
+                                <td class="table-item">Giga foods</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/g4.jpg"></td>
+                                <td class="table-item">Global HR Solutions(pvt)ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/g5.png"></td>
+                                <td class="table-item">Global Integra UK</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/g6.png"></td>
+                                <td class="table-item">Grand Arena</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/g7.jpeg"></td>
+                                <td class="table-item">Grand Rovinka Hotel</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/h1.png"></td>
+                                <td class="table-item">HBU CONSULTANVCY (PVT)LTD</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/h2.jpg"></td>
+                                <td class="table-item">Head Masters Lanka (pvt)LTD</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/h3.jpg"></td>
+                                <td class="table-item">Holiday Sri lanka travel girl LLC</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/h4.png"></td>
+                                <td class="table-item">Horns English pvt LTD</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th id="wordi">I</th>
+                    <th id="wordj">J</th>
+                    <th id="wordk">K</th>
+                    <th id="wordl">L</th>
+                </tr>
+
+                <tr>
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/i1.png"></td>
+                                <td class="table-item">Implica Global Corporation</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/i2.png"></td>
+                                <td class="table-item">Infinite Global Solotions (pvt)ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/i3.png"></td>
+                                <td class="table-item">Infinity Innovative IT Solution</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/i4.png"></td>
+                                <td class="table-item">INSYNC Holdings pvt ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/i5.jpg"></td>
+                                <td class="table-item">Ism Solutions Ltd</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/j1.png"></td>
+                                <td class="table-item">Jade Drive International Academy (pvt) ltd</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/k1.png"></td>
+                                <td class="table-item">KEDEN International</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/k2.jpg"></td>
+                                <td class="table-item">Keen Rabbits Pvt Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/k3.jpeg"></td>
+                                <td class="table-item">Konnect BRO Technologies (pvt) ltd</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/l1.png"></td>
+                                <td class="table-item">Lady Hill Hotel(pvt)ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/l2.jpg"></td>
+                                <td class="table-item">Lakmiro Business Services(pvt)ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/l3.png"></td>
+                                <td class="table-item">Lalanka Group of Companies</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/l4.png"></td>
+                                <td class="table-item">LK-TRONICS GREENS</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th id="wordm">M</th>
+                    <th id="wordn">N</th>
+                    <th id="wordo">O</th>
+                    <th id="wordp">P</th>
+                </tr>
+
+                <tr>
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/m1.jpg"></td>
+                                <td class="table-item">M3 Furniture Solutions</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/m2.png"></td>
+                                <td class="table-item">Maximus Education Migration & Travels Pvt Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/m3.jpg"></td>
+                                <td class="table-item">Midland Property Sales</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data"></td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/o1.jpg"></td>
+                                <td class="table-item">Ol Cafe and Restaurant Negombo</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/o2.jpg"></td>
+                                <td class="table-item">Onlinekade.lk</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/p1.jpeg"></td>
+                                <td class="table-item">People connect</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/p2.jpg"></td>
+                                <td class="table-item">Prinkets & Co.</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/p3.png"></td>
+                                <td class="table-item">Pubudu Engineering pvt Ltd</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th id="wordq">Q</th>
+                    <th id="wordr">R</th>
+                    <th id="words">S</th>
+                    <th id="wordt">T</th>
+                </tr>
+
+                <tr>
+                    <td class="table-data"></td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/r1.jpg"></td>
+                                <td class="table-item">Rapid car wash recruit</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/r2.png"></td>
+                                <td class="table-item">Recuritksa</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/r3.jpg"></td>
+                                <td class="table-item">Rogers</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/r4.jpg"></td>
+                                <td class="table-item">Rush Lanka Groups</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s1.png"></td>
+                                <td class="table-item">Sana Search International</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s2.png"></td>
+                                <td class="table-item">Sascon Property Developers(PVT)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s3.jpg"></td>
+                                <td class="table-item">Scopic</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s4.png"></td>
+                                <td class="table-item">Sense Micro Distributions (pvt) ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s5.jpg"></td>
+                                <td class="table-item">Sentab(Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s6.png"></td>
+                                <td class="table-item">sheesha(Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s7.jpg"></td>
+                                <td class="table-item">Smart e work(Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s8.png"></td>
+                                <td class="table-item">Softmint software(Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s9.jpg"></td>
+                                <td class="table-item">Stellaripe service</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s10.jpg"></td>
+                                <td class="table-item">Straight Line IT (Pvt)Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s11.png"></td>
+                                <td class="table-item">Sunset road</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s12.png"></td>
+                                <td class="table-item">Suwas Soft Pvt.Ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s13.png"></td>
+                                <td class="table-item">Synapse Solution pvt ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s14.jpg"></td>
+                                <td class="table-item">Synergy alliance solutions</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/s16.png"></td>
+                                <td class="table-item">Synergy GCC</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/t1.jpeg"></td>
+                                <td class="table-item">The Factory Hub</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/t2.png"></td>
+                                <td class="table-item">The Sports Bar & Restaurant</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/t3.png"></td>
+                                <td class="table-item">Toyotsu Lanka Private ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/t4.jpeg"></td>
+                                <td class="table-item">Trillium Connects study Abroad</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/t5.jpg"></td>
+                                <td class="table-item">Tsm Solutions Ltd</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th id="wordu">U</th>
+                    <th id="wordv">V</th>
+                    <th id="wordw">W</th>
+                    <th id="wordx">X</th>
+                </tr>
+
+                <tr>
+                    <td class="table-data"></td>
+
+                    <td class="table-data"></td>
+
+                    <td class="table-data">
+                        <table class="com-list">
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/w1.png"></td>
+                                <td class="table-item">Water Lily pvt ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/w2.png"></td>
+                                <td class="table-item">Wayamba Development</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/w3.jpeg"></td>
+                                <td class="table-item">WGL Logistics Co, pvt.ltd</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/w4.jpg"></td>
+                                <td class="table-item">Worldwide DMC</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/w5.png"></td>
+                                <td class="table-item">WWW.shoppingcentre.lk</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item"><img class="list-logo" src="images/com-logo/w6.png"></td>
+                                <td class="table-item">WWW.toyotsu.lk</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="table-data"></td>
+                </tr>
+
+                <tr>
+                    <th id="wordy">Y</th>
+                    <th id="wordz">Z</th>
+                    <th>&nbsp;</th>
+                    <th>&nbsp;</th>
+                </tr>
+
+                <tr>
+                    <td class="table-data"></td>
+                    <td class="table-data"></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Content end here-->
+
+
+        <!--Footer starts here-->
+
+        <div class="footer">
+
+            <div class="site-map">
+
+                <div class="footer-left">
+                    <a href="home.html">
+                        <img class="footer-logo" src="images/logos/logo.png">
+                    </a>
+                </div>
+
+                <div class="site-menu">
+
+                    <p class="footer-headings">JobSearch Pro</p>
+
+                    <a class="footer-items-link" href="home.html">
+                        <p class="footer-items">Home</p>
+                    </a>
+
+                    <a class="footer-items-link" href="jobListings.html">
+                        <p class="footer-items">Jobs</p>
+                    </a>
+
+                    <a class="footer-items-link" href="Companies.html">
+                        <p class="footer-items">Companies</p>
+                    </a>
+
+                    <a class="footer-items-link" href="aboutus.html">
+                        <p class="footer-items">About us</p>
+                    </a>
+                       
+                </div>
+
+                <div class="account-management">
+                    <p class="footer-headings">Employer</p>
+
+                    <a class="footer-items-link" href="login.html">
+                        <p class="footer-items">Employer Login</p>
+                    </a>
+                    
+                    <a class="footer-items-link" href="signup.html">
+                        <p class="footer-items">New Employer Join</p>
+                    </a>
+
+                    <a class="footer-items-link" href="#">
+                        <p class="footer-items">Account Center</p>
+                    </a>
+    
+                    
+                </div>
+
+                <div class="social-area">
+                    <p class="footer-headings">Follow us</p>
+
+                    <div class="social-grid">
+                        <a href="https://web.facebook.com">
+                            <img class="social-icons" src="images/icons/social-icons/facebook.png">
+                        </a>
+
+                        <a href="https://instagram.com/">
+                            <img class="social-icons" src="images/icons/social-icons/instagram.png">
+                        </a>
+
+                        <a href="https://x.com/">
+                            <img class="social-icons" src="images/icons/social-icons/twitter.png">
+                        </a>
+
+                        <a href="https://m.youtube.com">
+                            <img class="social-icons" src="images/icons/social-icons/youtube.png">
+                        </a>
+
+                        <a href="https://lk.linkedin.com/">
+                            <img class="social-icons" src="images/icons/social-icons/linkedin.png">
+                        </a>
+                        
+                        <a href="https://web.telegram.org/a/">
+                            <img class="social-icons" src="images/icons/social-icons/telegram.png">
+                        </a>
+                         
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="copyright-section">
+                <p class="copyright-text">&#169;2024, JobSearch Pro.com &#124; All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <!--Footer ends here-->
+
+    </body>
+</html>

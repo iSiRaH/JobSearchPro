@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="styles/signup.css"/>
+    </head>
+
+    <body>
+        <div class="container1">
+            <button class="back-button" onclick="history.go(-1)"><img class="back-button-image" src="images/icons/back-button.svg"></button>
+            <div class="container2">
+                <p class="heading">Sign Up</p>
+
+                <label>E-mail</label><br>
+                <input type="email" class="js-user-mail" size="30" required><br>
+                <p class="js-no-email no-data-input"></p>
+
+                <label>First Name</label><br>
+                <input type="text" class="js-fname" size="30" required><br>
+                <p class="js-no-fname no-data-input"></p>
+
+                <label>Last Name</label><br>
+                <input type="text" class="js-lname" size="30" required><br>
+                <p class="js-no-lname no-data-input"></p>
+
+                <label>Password</label><br>
+                <input type="password" class="js-password-input" size="30" required><br>
+                <p class="js-no-password no-data-input"></p>
+
+                <label>Confirm Password</label><br>
+                <input type="password" class="js-check-password" size="30" required><br>
+                <p class="js-no-confirm-password no-data-input"></p>
+
+                <button class="signup-button" type="submit" onclick="
+                    checkEmptyFields();
+                    checkPassword();
+                ">Sign Up</button>
+            </div>
+        </div>
+
+        <script src="scripts/signup.js"></script>
+    </body>
+</html>
