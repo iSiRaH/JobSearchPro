@@ -1,3 +1,16 @@
+.back-button{
+    background:transparent;
+    position:absolute;
+    top:15px;
+    left:10px;
+    border:none;
+    cursor:pointer;
+}
+
+.back-button-image{
+    width:40px;
+}
+
 .job-heading{
     margin-top:100px;
     margin-bottom:0;
