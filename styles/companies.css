@@ -53,12 +53,17 @@
 .search-button{
     border:none;
     background-color:#009422;
-    height:25px;
-    width:60px;
+    height:30px;
+    width:75px;
     border-radius:3px;
     font-size:15px;
     cursor: pointer;
     color:white;
+}
+
+.search-button:hover{
+    box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.15s;
 }
 
 .search-button:active{
@@ -85,6 +90,11 @@
     color:white;
     cursor:pointer;
     font-size:15px;
+}
+
+.filter-button:hover{
+    box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.15s;
 }
 
 .filter-button:active{
